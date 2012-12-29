@@ -1,0 +1,15 @@
+TYPE=VIEW
+query=select `forum`.`beitrag`.`thema_id` AS `thema_id`,count(0) AS `anzahl` from `forum`.`beitrag` group by `forum`.`beitrag`.`thema_id`
+md5=b062e8193f1f79a735469e4659bc4b88
+updatable=0
+algorithm=0
+definer_user=root
+definer_host=localhost
+suid=2
+with_check_option=0
+timestamp=2012-11-12 03:58:54
+create-version=1
+source=select `forum`.`beitrag`.`thema_id` AS `thema_id`,count(0) AS `anzahl` from `forum`.`beitrag` group by `forum`.`beitrag`.`thema_id`
+client_cs_name=utf8
+connection_cl_name=utf8_general_ci
+view_body_utf8=select `forum`.`beitrag`.`thema_id` AS `thema_id`,count(0) AS `anzahl` from `forum`.`beitrag` group by `forum`.`beitrag`.`thema_id`

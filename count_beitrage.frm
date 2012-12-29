@@ -1,0 +1,15 @@
+TYPE=VIEW
+query=select `forum`.`beitrag`.`autor_id` AS `benutzer_id`,count(0) AS `beitraege` from `forum`.`beitrag` group by `forum`.`beitrag`.`autor_id`
+md5=0fa8b8c2207957846a56ebda7f4af583
+updatable=0
+algorithm=0
+definer_user=root
+definer_host=localhost
+suid=2
+with_check_option=0
+timestamp=2012-11-12 03:59:07
+create-version=1
+source=select `forum`.`beitrag`.`autor_id` AS `benutzer_id`,count(0) AS `beitraege` from `forum`.`beitrag` group by `forum`.`beitrag`.`autor_id`
+client_cs_name=utf8
+connection_cl_name=utf8_general_ci
+view_body_utf8=select `forum`.`beitrag`.`autor_id` AS `benutzer_id`,count(0) AS `beitraege` from `forum`.`beitrag` group by `forum`.`beitrag`.`autor_id`

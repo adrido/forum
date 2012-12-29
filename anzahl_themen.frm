@@ -1,0 +1,15 @@
+TYPE=VIEW
+query=select count(`forum`.`themen`.`id`) AS `anzahl_themen`,`forum`.`themen`.`forum_id` AS `forum_id` from `forum`.`themen` group by `forum`.`themen`.`forum_id`
+md5=f13c417f3fc0349811f13fbec3057faa
+updatable=0
+algorithm=0
+definer_user=root
+definer_host=localhost
+suid=2
+with_check_option=0
+timestamp=2012-11-12 04:03:15
+create-version=1
+source=select count(`forum`.`themen`.`id`) AS `anzahl_themen`,`forum`.`themen`.`forum_id` AS `forum_id` from `forum`.`themen` group by `forum`.`themen`.`forum_id`
+client_cs_name=utf8
+connection_cl_name=utf8_general_ci
+view_body_utf8=select count(`forum`.`themen`.`id`) AS `anzahl_themen`,`forum`.`themen`.`forum_id` AS `forum_id` from `forum`.`themen` group by `forum`.`themen`.`forum_id`
